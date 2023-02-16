@@ -12,39 +12,17 @@ Due to relying on the VTK module build system, this library requires VTK 9.0 or 
 ```bash
 git clone https://github.com/mortacious/vtk-openvr.git
 cd vtk-openvr
-python setup.py install
+python setup.py bdist_wheel
+python -m pip install dist/<generated wheel-file>
 ```
 
+# Usage
 
-### From source (C++)
-```bash
-git clone https://github.com/mortacious/vtk-openvr.git
-cd vtk-openvr
-mkdir build && cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
-make && sudo make install
+Import the module in python using
+
+```py
+import vtk_openvr as oxr
 ```
-
-## Usage
-
-### Linux
-
-An Application using this library must be launched with the steam runtime enabled if `STEAM_RUNTIME=1`, e.g.:
-
-```bash
-~/.steam/steam/ubuntu12_64/steam-runtime/run.sh ./<application>
-```
-
-or
-
-```bash
-~/.steam/steam/ubuntu12_64/steam-runtime/run.sh python <application>
-```
-
-### Windows 
-
-¯\\_(ツ)_/¯
-
 
 ## Acknowlegements
 
