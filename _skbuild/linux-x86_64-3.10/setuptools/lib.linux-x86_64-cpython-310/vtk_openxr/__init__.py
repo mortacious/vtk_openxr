@@ -1,1 +1,0 @@
-from vtkmodules.vtkRenderingOpenXR import *

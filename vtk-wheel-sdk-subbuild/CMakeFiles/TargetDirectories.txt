@@ -1,3 +1,0 @@
-/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/CMakeFiles/vtk-wheel-sdk-populate.dir
-/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/CMakeFiles/edit_cache.dir
-/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/CMakeFiles/rebuild_cache.dir

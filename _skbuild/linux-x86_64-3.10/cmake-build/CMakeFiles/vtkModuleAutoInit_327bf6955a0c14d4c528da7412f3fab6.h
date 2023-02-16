@@ -1,1 +1,0 @@
-#define vtkRenderingCore_AUTOINIT 2(vtkRenderingOpenGL2,vtkRenderingVR)

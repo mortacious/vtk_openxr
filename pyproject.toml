@@ -2,4 +2,5 @@
 requires = [
     "wheel",
     "setuptools",
+    'vtk',
 ]
