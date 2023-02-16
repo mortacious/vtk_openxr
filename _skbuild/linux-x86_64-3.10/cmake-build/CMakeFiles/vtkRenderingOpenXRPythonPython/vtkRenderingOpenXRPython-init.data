@@ -1,0 +1,15 @@
+vtkRenderingOpenXR
+vtkOpenXRRenderWindow
+vtkOpenXRRenderWindowInteractor
+vtkOpenXRCamera
+vtkOpenXRControlsHelper
+vtkOpenXRModel
+vtkOpenXRRenderer
+vtkOpenXRInteractorStyle
+vtkRenderingOpenXRModule
+DEPENDS
+vtkmodules.vtkCommonCore
+vtkmodules.vtkCommonMath
+vtkmodules.vtkRenderingCore
+vtkmodules.vtkRenderingOpenGL2
+vtkmodules.vtkRenderingVR

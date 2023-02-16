@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-This software fetches and builds the OpenVR module from the VTK library licensed as follows:
+This software fetches and builds the OpenXR module from the VTK library licensed as follows:
 /*=========================================================================
 
   Program:   Visualization Toolkit

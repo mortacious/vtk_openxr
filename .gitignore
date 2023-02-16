@@ -1,5 +1,5 @@
 *.so
-vtk_openvr/lib
+vtk_openxr/lib
 *.egg-info
 build/
 cmake-build-debug/

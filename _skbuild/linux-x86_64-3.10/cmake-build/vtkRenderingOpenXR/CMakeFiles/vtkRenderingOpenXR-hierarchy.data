@@ -1,0 +1,8 @@
+/home/mortacious/Projects/vtk_openxr/_deps/VTK/Rendering/OpenXR/vtkOpenXRRenderWindow.h;vtkRenderingOpenXR
+/home/mortacious/Projects/vtk_openxr/_deps/VTK/Rendering/OpenXR/vtkOpenXRRenderWindowInteractor.h;vtkRenderingOpenXR
+/home/mortacious/Projects/vtk_openxr/_deps/VTK/Rendering/OpenXR/vtkOpenXRCamera.h;vtkRenderingOpenXR
+/home/mortacious/Projects/vtk_openxr/_deps/VTK/Rendering/OpenXR/vtkOpenXRControlsHelper.h;vtkRenderingOpenXR
+/home/mortacious/Projects/vtk_openxr/_deps/VTK/Rendering/OpenXR/vtkOpenXRModel.h;vtkRenderingOpenXR
+/home/mortacious/Projects/vtk_openxr/_deps/VTK/Rendering/OpenXR/vtkOpenXRRenderer.h;vtkRenderingOpenXR
+/home/mortacious/Projects/vtk_openxr/_deps/VTK/Rendering/OpenXR/vtkOpenXRInteractorStyle.h;vtkRenderingOpenXR
+/home/mortacious/Projects/vtk_openxr/_skbuild/linux-x86_64-3.10/cmake-build/vtkRenderingOpenXR/vtkRenderingOpenXRModule.h;vtkRenderingOpenXR

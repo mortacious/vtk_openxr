@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/CMakeFiles/vtk-wheel-sdk-populate"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/CMakeFiles/vtk-wheel-sdk-populate.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/CMakeFiles/vtk-wheel-sdk-populate-complete.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/vtk-wheel-sdk-populate-prefix/src/vtk-wheel-sdk-populate-stamp/vtk-wheel-sdk-populate-build.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/vtk-wheel-sdk-populate-prefix/src/vtk-wheel-sdk-populate-stamp/vtk-wheel-sdk-populate-configure.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/vtk-wheel-sdk-populate-prefix/src/vtk-wheel-sdk-populate-stamp/vtk-wheel-sdk-populate-download.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/vtk-wheel-sdk-populate-prefix/src/vtk-wheel-sdk-populate-stamp/vtk-wheel-sdk-populate-install.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/vtk-wheel-sdk-populate-prefix/src/vtk-wheel-sdk-populate-stamp/vtk-wheel-sdk-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/vtk-wheel-sdk-populate-prefix/src/vtk-wheel-sdk-populate-stamp/vtk-wheel-sdk-populate-patch.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/vtk-wheel-sdk-populate-prefix/src/vtk-wheel-sdk-populate-stamp/vtk-wheel-sdk-populate-test.rule"
+		},
+		{
+			"file" : "/home/mortacious/Projects/vtk_openxr/vtk-wheel-sdk-subbuild/vtk-wheel-sdk-populate-prefix/src/vtk-wheel-sdk-populate-stamp/vtk-wheel-sdk-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vtk-wheel-sdk-populate"
+		],
+		"name" : "vtk-wheel-sdk-populate"
+	}
+}

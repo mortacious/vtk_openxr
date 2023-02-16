@@ -1,6 +1,6 @@
-# VTK OpenVR
+# VTK OpenXR
 
-Build VTK's [Rendering/OpenVR](https://github.com/Kitware/VTK/tree/master/Rendering/OpenVR) 
+Build VTK's [Rendering/OpenXR](https://github.com/Kitware/VTK/tree/master/Rendering/OpenXR) 
 module as a standalone installable library with optional python bindings.
 
 Due to relying on the VTK module build system, this library requires VTK 9.0 or above.
@@ -48,7 +48,7 @@ or
 
 ## Acknowlegements
 
-This library provides the vtkRenderingOpenVR module of the VTK library as a standalone (python) package. VTK
+This library provides the vtkRenderingOpenXR module of the VTK library as a standalone (python) package. VTK
 is available under the following license:
 
 Program:   Visualization Toolkit
