@@ -10,8 +10,8 @@ Due to relying on the VTK module build system, this library requires VTK 9.0 or 
 ### From source (Python)
 
 ```bash
-git clone https://github.com/mortacious/vtk-openvr.git
-cd vtk-openvr
+git clone https://github.com/mortacious/vtk-openxr.git
+cd vtk-openxr
 python setup.py bdist_wheel
 python -m pip install dist/<generated wheel-file>
 ```
@@ -21,7 +21,7 @@ python -m pip install dist/<generated wheel-file>
 Import the module in python using
 
 ```py
-import vtk_openvr as oxr
+import vtk_openxr as oxr
 ```
 
 ## Acknowlegements

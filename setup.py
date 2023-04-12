@@ -168,7 +168,7 @@ if python3_executable is None:
 
 
 cmake_args = [
-    '-DVTK_MODULE_NAME:STRING=RenderingOpenXR',
+    '-DVTK_MODULE_NAME:STRING=RenderingOpenXR',conda
     f'-DVTK_MODULE_SOURCE_DIR:PATH={vtk_openxr_sources_path}',
     f'-DVTK_MODULE_CMAKE_MODULE_PATH:PATH={vtk_wheel_sdk_cmake_path}',
     f'-DVTK_DIR:PATH={vtk_wheel_sdk_cmake_path}',
@@ -177,6 +177,16 @@ cmake_args = [
     '-DVTK_WHEEL_BUILD:BOOL=ON',
     '-S', vtk_external_module_path,
 ]
+
+if sys.platform == 'linux':
+    #if os.getenv('LINUX_VTK_OPENXR_USE_COMPATIBLE_ABI') == '1':
+    # If building locally, it is necessary to set this in order to
+    # produce a wheel that can be used. Otherwise, the VTK symbols
+    # will not match those in the actual VTK wheel.
+    cmake_args.append('-DCMAKE_CXX_FLAGS=-D_GLIBCXX_USE_CXX11_ABI=0')
+else:
+    raise ValueError("Only linux is supported right now.")
+
 
 setup(
     name="vtk-openxr",
